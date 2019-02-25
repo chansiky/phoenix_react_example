@@ -20,6 +20,8 @@ import ReactDOM from 'react-dom'
 
 import ReactButton from "./react_button"
 const e = React.createElement;
+import JSXComponent from "./jsx_component.jsx"
 
 const domContainer = document.querySelector('#react-entry');
 ReactDOM.render(e(ReactButton), domContainer);
+ReactDOM.render(e(JSXComponent), document.getElementById('jsx-entry'))
