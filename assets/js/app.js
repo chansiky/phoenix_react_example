@@ -15,3 +15,8 @@ import "phoenix_html"
 //
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
+import ReactButton from "./react_button"
+const e = React.createElement;
+
+const domContainer = document.querySelector('#react-entry');
+ReactDOM.render(e(ReactButton), domContainer);

@@ -1,3 +1,4 @@
 <section class="phx-hero">
-  <div id="react-entry"/>
+  hello
+  <div id="react-entry">react_entry</div>
 </section>
