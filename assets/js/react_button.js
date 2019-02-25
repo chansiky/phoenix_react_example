@@ -1,5 +1,6 @@
 'use strict';
 
+import React from 'react'
 const e = React.createElement;
 
 class ReactButton extends React.Component {
@@ -9,7 +10,6 @@ class ReactButton extends React.Component {
   }
 
   render() {
-    console.log('yellow_world')
     if (this.state.liked) {
       return 'You liked this.';
     }

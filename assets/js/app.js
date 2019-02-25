@@ -10,11 +10,14 @@ import css from "../css/app.css"
 // Import dependencies
 //
 import "phoenix_html"
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 // Import local files
 //
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
+
 import ReactButton from "./react_button"
 const e = React.createElement;
 
