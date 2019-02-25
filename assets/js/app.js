@@ -12,16 +12,16 @@ import css from "../css/app.css"
 import "phoenix_html"
 import React from 'react'
 import ReactDOM from 'react-dom'
+import ReactEntry from './react_entry.jsx'
+import JSXComponent from "./jsx_component.jsx"
 
 // Import local files
 //
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
 
-import ReactButton from "./react_button"
-const e = React.createElement;
-import JSXComponent from "./jsx_component.jsx"
+const e = React.createElement
 
-const domContainer = document.querySelector('#react-entry');
-ReactDOM.render(e(ReactButton), domContainer);
+ReactDOM.render(<ReactEntry/>, document.getElementById('react-entry'))
+
 ReactDOM.render(e(JSXComponent), document.getElementById('jsx-entry'))

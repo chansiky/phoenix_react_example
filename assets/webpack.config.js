@@ -17,6 +17,7 @@ module.exports = (env, options) => ({
   },
   output: {
     filename: 'app.js',
+    chunkFilename: '[name].bundle.js',
     path: path.resolve(__dirname, '../priv/static/js')
   },
   module: {

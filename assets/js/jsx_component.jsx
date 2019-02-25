@@ -2,7 +2,7 @@ import React from 'react'
 
 const JSXComponent = () => {
   return (
-    <div>JSX component</div>
+    <div>JSX component is being rendered</div>
   )
 }
 
