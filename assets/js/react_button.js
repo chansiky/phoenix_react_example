@@ -1,5 +1,6 @@
 'use strict';
 
+const e = React.createElement;
 
 class ReactButton extends React.Component {
   constructor(props) {
